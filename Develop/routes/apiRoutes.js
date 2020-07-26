@@ -21,7 +21,7 @@ module.exports = function (app) {
         }
         savedData = tempjournal;
     
-        res.json("delete done");
+        res.json("delete");
         console.log ("deleted")
       });
 };
